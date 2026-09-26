@@ -1,0 +1,391 @@
+Warning message:
+package 'httr2' was built under R version 4.5.3 
+[22:39:55] Creating session ...
+[22:39:55] session_id = zvn8M78BdAStc8aKBJYfge4e
+[22:39:55] Importing 16S data (tax) ...
+[22:40:03] import result:
+List of 4
+ $ success   : logi FALSE
+ $ error     : chr "Unable to persist EMP state: D:/学习资料/大三上/生物信息学/EasyMultiProfiler-Web/.local_run/data/projects/sessi"| __truncated__
+ $ backend_ms: num 5366
+ $ server_ts : chr "2026-09-23T22:40:03.301+0800"
+[22:40:03] Profiling taxonomy ...
+$success
+[1] FALSE
+
+$error
+[1] "Session data not found. Please import data first."
+
+$backend_ms
+[1] 30.1
+
+$server_ts
+[1] "2026-09-23T22:40:03.373+0800"
+
+$success
+[1] FALSE
+
+$error
+[1] "Session data not found. Please import data first."
+
+$backend_ms
+[1] 7.9
+
+$server_ts
+[1] "2026-09-23T22:40:03.419+0800"
+
+[22:40:03] summary:
+List of 4
+ $ success   : logi FALSE
+ $ error     : chr "Session data not found. Please import data first."
+ $ backend_ms: num 0.9
+ $ server_ts : chr "2026-09-23T22:40:03.460+0800"
+[22:40:03] Prepare taxonomy -> Genus ...
+[22:40:03] prepare result:
+List of 4
+ $ success   : logi FALSE
+ $ error     : chr "Session data not found. Please import data first."
+ $ backend_ms: num 25.1
+ $ server_ts : chr "2026-09-23T22:40:03.522+0800"
+[22:40:03] Submitting run_all (whole 16S pipeline) ...
+[22:40:09] run_all job: 20260923224003.885-miwx3rff
+[22:40:14]   job status = queued  progress = 0  Queued
+[22:40:19]   job status = queued  progress = 0  Queued
+[22:40:27]   job status = queued  progress = 0  Queued
+[22:40:32]   job status = queued  progress = 0  Queued
+[22:40:37]   job status = queued  progress = 0  Queued
+[22:40:43]   job status = queued  progress = 0  Queued
+[22:40:48]   job status = queued  progress = 0  Queued
+[22:40:53]   job status = queued  progress = 0  Queued
+[22:40:58]   job status = queued  progress = 0  Queued
+[22:41:03]   job status = queued  progress = 0  Queued
+[22:41:08]   job status = queued  progress = 0  Queued
+[22:41:13]   job status = queued  progress = 0  Queued
+[22:41:18]   job status = queued  progress = 0  Queued
+[22:41:24]   job status = queued  progress = 0  Queued
+[22:41:29]   job status = queued  progress = 0  Queued
+[22:41:34]   job status = queued  progress = 0  Queued
+[22:41:39]   job status = queued  progress = 0  Queued
+[22:41:44]   job status = queued  progress = 0  Queued
+[22:41:49]   job status = queued  progress = 0  Queued
+[22:41:58]   job status = queued  progress = 0  Queued
+[22:42:03]   job status = queued  progress = 0  Queued
+[22:42:08]   job status = queued  progress = 0  Queued
+[22:42:13]   job status = queued  progress = 0  Queued
+[22:42:18]   job status = queued  progress = 0  Queued
+[22:42:24]   job status = queued  progress = 0  Queued
+[22:42:29]   job status = queued  progress = 0  Queued
+[22:42:34]   job status = queued  progress = 0  Queued
+[22:42:39]   job status = queued  progress = 0  Queued
+[22:42:44]   job status = queued  progress = 0  Queued
+[22:42:49]   job status = queued  progress = 0  Queued
+[22:42:54]   job status = queued  progress = 0  Queued
+[22:43:00]   job status = queued  progress = 0  Queued
+[22:43:05]   job status = queued  progress = 0  Queued
+[22:43:10]   job status = queued  progress = 0  Queued
+[22:43:15]   job status = queued  progress = 0  Queued
+[22:43:20]   job status = queued  progress = 0  Queued
+[22:43:25]   job status = queued  progress = 0  Queued
+[22:43:30]   job status = queued  progress = 0  Queued
+[22:43:36]   job status = queued  progress = 0  Queued
+[22:43:41]   job status = queued  progress = 0  Queued
+[22:43:46]   job status = queued  progress = 0  Queued
+[22:43:51]   job status = queued  progress = 0  Queued
+[22:43:56]   job status = queued  progress = 0  Queued
+[22:44:01]   job status = queued  progress = 0  Queued
+[22:44:07]   job status = queued  progress = 0  Queued
+[22:44:12]   job status = queued  progress = 0  Queued
+[22:44:17]   job status = queued  progress = 0  Queued
+[22:44:22]   job status = queued  progress = 0  Queued
+[22:44:27]   job status = queued  progress = 0  Queued
+[22:44:32]   job status = queued  progress = 0  Queued
+[22:44:37]   job status = queued  progress = 0  Queued
+[22:44:43]   job status = queued  progress = 0  Queued
+[22:44:48]   job status = queued  progress = 0  Queued
+[22:44:53]   job status = queued  progress = 0  Queued
+[22:44:58]   job status = queued  progress = 0  Queued
+[22:45:03]   job status = queued  progress = 0  Queued
+[22:45:08]   job status = queued  progress = 0  Queued
+[22:45:13]   job status = queued  progress = 0  Queued
+[22:45:19]   job status = queued  progress = 0  Queued
+[22:45:24]   job status = queued  progress = 0  Queued
+[22:45:29]   job status = queued  progress = 0  Queued
+[22:45:34]   job status = queued  progress = 0  Queued
+[22:45:39]   job status = queued  progress = 0  Queued
+[22:45:44]   job status = queued  progress = 0  Queued
+[22:45:49]   job status = queued  progress = 0  Queued
+[22:45:54]   job status = queued  progress = 0  Queued
+[22:46:00]   job status = queued  progress = 0  Queued
+[22:46:05]   job status = queued  progress = 0  Queued
+[22:46:10]   job status = queued  progress = 0  Queued
+[22:46:15]   job status = queued  progress = 0  Queued
+[22:46:20]   job status = queued  progress = 0  Queued
+[22:46:25]   job status = queued  progress = 0  Queued
+[22:46:30]   job status = queued  progress = 0  Queued
+[22:46:36]   job status = queued  progress = 0  Queued
+[22:46:41]   job status = queued  progress = 0  Queued
+[22:46:46]   job status = queued  progress = 0  Queued
+[22:46:51]   job status = queued  progress = 0  Queued
+[22:46:56]   job status = queued  progress = 0  Queued
+[22:47:01]   job status = queued  progress = 0  Queued
+[22:47:06]   job status = queued  progress = 0  Queued
+[22:47:12]   job status = queued  progress = 0  Queued
+[22:47:17]   job status = queued  progress = 0  Queued
+[22:47:22]   job status = queued  progress = 0  Queued
+[22:47:27]   job status = queued  progress = 0  Queued
+[22:47:32]   job status = queued  progress = 0  Queued
+[22:47:37]   job status = queued  progress = 0  Queued
+[22:47:42]   job status = queued  progress = 0  Queued
+[22:47:48]   job status = queued  progress = 0  Queued
+[22:47:53]   job status = queued  progress = 0  Queued
+[22:47:58]   job status = queued  progress = 0  Queued
+[22:48:03]   job status = queued  progress = 0  Queued
+[22:48:08]   job status = queued  progress = 0  Queued
+[22:48:13]   job status = queued  progress = 0  Queued
+[22:48:18]   job status = queued  progress = 0  Queued
+[22:48:23]   job status = queued  progress = 0  Queued
+[22:48:29]   job status = queued  progress = 0  Queued
+[22:48:34]   job status = queued  progress = 0  Queued
+[22:48:39]   job status = queued  progress = 0  Queued
+[22:48:44]   job status = queued  progress = 0  Queued
+[22:48:49]   job status = queued  progress = 0  Queued
+[22:48:54]   job status = queued  progress = 0  Queued
+[22:48:59]   job status = queued  progress = 0  Queued
+[22:49:05]   job status = queued  progress = 0  Queued
+[22:49:10]   job status = queued  progress = 0  Queued
+[22:49:15]   job status = queued  progress = 0  Queued
+[22:49:20]   job status = queued  progress = 0  Queued
+[22:49:25]   job status = queued  progress = 0  Queued
+[22:49:30]   job status = queued  progress = 0  Queued
+[22:49:35]   job status = queued  progress = 0  Queued
+[22:49:41]   job status = queued  progress = 0  Queued
+[22:49:46]   job status = queued  progress = 0  Queued
+[22:49:51]   job status = queued  progress = 0  Queued
+[22:49:56]   job status = queued  progress = 0  Queued
+[22:50:01]   job status = queued  progress = 0  Queued
+[22:50:06]   job status = queued  progress = 0  Queued
+[22:50:11]   job status = queued  progress = 0  Queued
+[22:50:18]   job status = queued  progress = 0  Queued
+[22:50:23]   job status = queued  progress = 0  Queued
+[22:50:28]   job status = queued  progress = 0  Queued
+[22:50:33]   job status = queued  progress = 0  Queued
+[22:50:38]   job status = queued  progress = 0  Queued
+[22:50:44]   job status = queued  progress = 0  Queued
+[22:50:49]   job status = queued  progress = 0  Queued
+[22:50:54]   job status = queued  progress = 0  Queued
+[22:50:59]   job status = queued  progress = 0  Queued
+[22:51:04]   job status = queued  progress = 0  Queued
+[22:51:09]   job status = queued  progress = 0  Queued
+[22:51:15]   job status = queued  progress = 0  Queued
+[22:51:20]   job status = queued  progress = 0  Queued
+[22:51:25]   job status = queued  progress = 0  Queued
+[22:51:30]   job status = queued  progress = 0  Queued
+[22:51:35]   job status = queued  progress = 0  Queued
+[22:51:40]   job status = queued  progress = 0  Queued
+[22:51:45]   job status = queued  progress = 0  Queued
+[22:51:50]   job status = queued  progress = 0  Queued
+[22:51:56]   job status = queued  progress = 0  Queued
+[22:52:01]   job status = queued  progress = 0  Queued
+[22:52:06]   job status = queued  progress = 0  Queued
+[22:52:11]   job status = queued  progress = 0  Queued
+[22:52:16]   job status = queued  progress = 0  Queued
+[22:52:21]   job status = queued  progress = 0  Queued
+[22:52:27]   job status = queued  progress = 0  Queued
+[22:52:32]   job status = queued  progress = 0  Queued
+[22:52:37]   job status = queued  progress = 0  Queued
+[22:52:42]   job status = queued  progress = 0  Queued
+[22:52:47]   job status = queued  progress = 0  Queued
+[22:52:52]   job status = queued  progress = 0  Queued
+[22:52:57]   job status = queued  progress = 0  Queued
+[22:53:03]   job status = queued  progress = 0  Queued
+[22:53:08]   job status = queued  progress = 0  Queued
+[22:53:13]   job status = queued  progress = 0  Queued
+[22:53:18]   job status = queued  progress = 0  Queued
+[22:53:23]   job status = queued  progress = 0  Queued
+[22:53:28]   job status = queued  progress = 0  Queued
+[22:53:33]   job status = queued  progress = 0  Queued
+[22:53:38]   job status = queued  progress = 0  Queued
+[22:53:44]   job status = queued  progress = 0  Queued
+[22:53:49]   job status = queued  progress = 0  Queued
+[22:53:54]   job status = queued  progress = 0  Queued
+[22:53:59]   job status = queued  progress = 0  Queued
+[22:54:04]   job status = queued  progress = 0  Queued
+[22:54:09]   job status = queued  progress = 0  Queued
+[22:54:14]   job status = queued  progress = 0  Queued
+[22:54:20]   job status = queued  progress = 0  Queued
+[22:54:25]   job status = queued  progress = 0  Queued
+[22:54:30]   job status = queued  progress = 0  Queued
+[22:54:35]   job status = queued  progress = 0  Queued
+[22:54:40]   job status = queued  progress = 0  Queued
+[22:54:45]   job status = queued  progress = 0  Queued
+[22:54:50]   job status = queued  progress = 0  Queued
+[22:54:55]   job status = queued  progress = 0  Queued
+[22:55:01]   job status = queued  progress = 0  Queued
+[22:55:06]   job status = queued  progress = 0  Queued
+[22:55:11]   job status = queued  progress = 0  Queued
+[22:55:16]   job status = queued  progress = 0  Queued
+[22:55:21]   job status = queued  progress = 0  Queued
+[22:55:26]   job status = queued  progress = 0  Queued
+[22:55:31]   job status = queued  progress = 0  Queued
+[22:55:36]   job status = queued  progress = 0  Queued
+[22:55:42]   job status = queued  progress = 0  Queued
+[22:55:47]   job status = queued  progress = 0  Queued
+[22:55:52]   job status = queued  progress = 0  Queued
+[22:55:57]   job status = queued  progress = 0  Queued
+[22:56:02]   job status = queued  progress = 0  Queued
+[22:56:07]   job status = queued  progress = 0  Queued
+[22:56:12]   job status = queued  progress = 0  Queued
+[22:56:17]   job status = queued  progress = 0  Queued
+[22:56:23]   job status = queued  progress = 0  Queued
+[22:56:28]   job status = queued  progress = 0  Queued
+[22:56:33]   job status = queued  progress = 0  Queued
+[22:56:38]   job status = queued  progress = 0  Queued
+[22:56:43]   job status = queued  progress = 0  Queued
+[22:56:48]   job status = queued  progress = 0  Queued
+[22:56:53]   job status = queued  progress = 0  Queued
+[22:56:58]   job status = queued  progress = 0  Queued
+[22:57:04]   job status = queued  progress = 0  Queued
+[22:57:09]   job status = queued  progress = 0  Queued
+[22:57:14]   job status = queued  progress = 0  Queued
+[22:57:19]   job status = queued  progress = 0  Queued
+[22:57:24]   job status = queued  progress = 0  Queued
+[22:57:29]   job status = queued  progress = 0  Queued
+[22:57:34]   job status = queued  progress = 0  Queued
+[22:57:39]   job status = queued  progress = 0  Queued
+[22:57:45]   job status = queued  progress = 0  Queued
+[22:57:50]   job status = queued  progress = 0  Queued
+[22:57:55]   job status = queued  progress = 0  Queued
+[22:58:00]   job status = queued  progress = 0  Queued
+[22:58:05]   job status = queued  progress = 0  Queued
+[22:58:10]   job status = queued  progress = 0  Queued
+[22:58:15]   job status = queued  progress = 0  Queued
+[22:58:20]   job status = queued  progress = 0  Queued
+[22:58:26]   job status = queued  progress = 0  Queued
+[22:58:31]   job status = queued  progress = 0  Queued
+[22:58:36]   job status = queued  progress = 0  Queued
+[22:58:41]   job status = queued  progress = 0  Queued
+[22:58:46]   job status = queued  progress = 0  Queued
+[22:58:51]   job status = queued  progress = 0  Queued
+[22:58:56]   job status = queued  progress = 0  Queued
+[22:59:01]   job status = queued  progress = 0  Queued
+[22:59:07]   job status = queued  progress = 0  Queued
+[22:59:12]   job status = queued  progress = 0  Queued
+[22:59:17]   job status = queued  progress = 0  Queued
+[22:59:22]   job status = queued  progress = 0  Queued
+[22:59:27]   job status = queued  progress = 0  Queued
+[22:59:32]   job status = queued  progress = 0  Queued
+[22:59:37]   job status = queued  progress = 0  Queued
+[22:59:42]   job status = queued  progress = 0  Queued
+[22:59:48]   job status = queued  progress = 0  Queued
+[22:59:53]   job status = queued  progress = 0  Queued
+[22:59:58]   job status = queued  progress = 0  Queued
+[23:00:03]   job status = queued  progress = 0  Queued
+[23:00:08]   job status = queued  progress = 0  Queued
+[23:00:13]   job status = queued  progress = 0  Queued
+[23:00:18]   job status = queued  progress = 0  Queued
+[23:00:23]   job status = queued  progress = 0  Queued
+[23:00:29]   job status = queued  progress = 0  Queued
+[23:00:34]   job status = queued  progress = 0  Queued
+[23:00:39]   job status = queued  progress = 0  Queued
+[23:00:44]   job status = queued  progress = 0  Queued
+[23:00:49]   job status = queued  progress = 0  Queued
+[23:00:54]   job status = queued  progress = 0  Queued
+[23:00:59]   job status = queued  progress = 0  Queued
+[23:01:04]   job status = queued  progress = 0  Queued
+[23:01:10]   job status = queued  progress = 0  Queued
+[23:01:15]   job status = queued  progress = 0  Queued
+[23:01:20]   job status = queued  progress = 0  Queued
+[23:01:25]   job status = queued  progress = 0  Queued
+[23:01:30]   job status = queued  progress = 0  Queued
+[23:01:35]   job status = queued  progress = 0  Queued
+[23:01:40]   job status = queued  progress = 0  Queued
+[23:01:45]   job status = queued  progress = 0  Queued
+[23:01:51]   job status = queued  progress = 0  Queued
+[23:01:56]   job status = queued  progress = 0  Queued
+[23:02:01]   job status = queued  progress = 0  Queued
+[23:02:06]   job status = queued  progress = 0  Queued
+[23:02:11]   job status = queued  progress = 0  Queued
+[23:02:16]   job status = queued  progress = 0  Queued
+[23:02:21]   job status = queued  progress = 0  Queued
+[23:02:26]   job status = queued  progress = 0  Queued
+[23:02:32]   job status = queued  progress = 0  Queued
+[23:02:37]   job status = queued  progress = 0  Queued
+[23:02:42]   job status = queued  progress = 0  Queued
+[23:02:47]   job status = queued  progress = 0  Queued
+[23:02:52]   job status = queued  progress = 0  Queued
+[23:02:57]   job status = queued  progress = 0  Queued
+[23:03:02]   job status = queued  progress = 0  Queued
+[23:03:07]   job status = queued  progress = 0  Queued
+[23:03:13]   job status = queued  progress = 0  Queued
+[23:03:18]   job status = queued  progress = 0  Queued
+[23:03:23]   job status = queued  progress = 0  Queued
+[23:03:28]   job status = queued  progress = 0  Queued
+[23:03:33]   job status = queued  progress = 0  Queued
+[23:03:38]   job status = queued  progress = 0  Queued
+[23:03:43]   job status = queued  progress = 0  Queued
+[23:03:48]   job status = queued  progress = 0  Queued
+[23:03:54]   job status = queued  progress = 0  Queued
+[23:03:59]   job status = queued  progress = 0  Queued
+[23:04:04]   job status = queued  progress = 0  Queued
+[23:04:09]   job status = queued  progress = 0  Queued
+[23:04:14]   job status = queued  progress = 0  Queued
+[23:04:19]   job status = queued  progress = 0  Queued
+[23:04:24]   job status = queued  progress = 0  Queued
+[23:04:29]   job status = queued  progress = 0  Queued
+[23:04:35]   job status = queued  progress = 0  Queued
+[23:04:40]   job status = queued  progress = 0  Queued
+[23:04:45]   job status = queued  progress = 0  Queued
+[23:04:50]   job status = queued  progress = 0  Queued
+[23:04:55]   job status = queued  progress = 0  Queued
+[23:05:00]   job status = queued  progress = 0  Queued
+[23:05:05]   job status = queued  progress = 0  Queued
+[23:05:10]   job status = queued  progress = 0  Queued
+[23:05:15]   job status = queued  progress = 0  Queued
+[23:05:21]   job status = queued  progress = 0  Queued
+[23:05:26]   job status = queued  progress = 0  Queued
+[23:05:31]   job status = queued  progress = 0  Queued
+[23:05:36]   job status = queued  progress = 0  Queued
+[23:05:41]   job status = queued  progress = 0  Queued
+[23:05:46]   job status = queued  progress = 0  Queued
+[23:05:51]   job status = queued  progress = 0  Queued
+[23:05:56]   job status = queued  progress = 0  Queued
+[23:06:02]   job status = queued  progress = 0  Queued
+[23:06:07]   job status = queued  progress = 0  Queued
+[23:06:12]   job status = queued  progress = 0  Queued
+[23:06:17]   job status = queued  progress = 0  Queued
+[23:06:22]   job status = queued  progress = 0  Queued
+[23:06:27]   job status = queued  progress = 0  Queued
+[23:06:32]   job status = queued  progress = 0  Queued
+[23:06:37]   job status = queued  progress = 0  Queued
+[23:06:43]   job status = queued  progress = 0  Queued
+[23:06:48]   job status = queued  progress = 0  Queued
+[23:06:53]   job status = queued  progress = 0  Queued
+[23:06:58]   job status = queued  progress = 0  Queued
+[23:07:03]   job status = queued  progress = 0  Queued
+[23:07:08]   job status = queued  progress = 0  Queued
+[23:07:13]   job status = queued  progress = 0  Queued
+[23:07:19]   job status = queued  progress = 0  Queued
+[23:07:24]   job status = queued  progress = 0  Queued
+[23:07:29]   job status = queued  progress = 0  Queued
+[23:07:34]   job status = queued  progress = 0  Queued
+[23:07:39]   job status = queued  progress = 0  Queued
+[23:07:44]   job status = queued  progress = 0  Queued
+[23:07:49]   job status = queued  progress = 0  Queued
+[23:07:55]   job status = queued  progress = 0  Queued
+[23:08:00]   job status = queued  progress = 0  Queued
+[23:08:05]   job status = queued  progress = 0  Queued
+[23:08:10]   job status = queued  progress = 0  Queued
+[23:08:15]   job status = queued  progress = 0  Queued
+[23:08:20]   job status = queued  progress = 0  Queued
+[23:08:25]   job status = queued  progress = 0  Queued
+[23:08:31]   job status = queued  progress = 0  Queued
+[23:08:36]   job status = queued  progress = 0  Queued
+[23:08:41]   job status = queued  progress = 0  Queued
+[23:08:46]   job status = queued  progress = 0  Queued
+[23:08:51]   job status = queued  progress = 0  Queued
+[23:08:56]   job status = queued  progress = 0  Queued
+[23:09:01]   job status = queued  progress = 0  Queued
+[23:09:07]   job status = queued  progress = 0  Queued
+[23:09:12]   job status = queued  progress = 0  Queued
+[23:09:17]   job status = queued  progress = 0  Queued
+[23:09:22]   job status = queued  progress = 0  Queued

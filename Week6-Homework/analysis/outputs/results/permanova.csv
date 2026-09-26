@@ -1,0 +1,13 @@
+"model","term","R2","F","p"
+"Group","Model",0.031920215387508,1.38485388041852,0.149
+"Group","Residual",0.968079784612492,NA,NA
+"Group","Total",1,NA,NA
+"Disease","Model",0.0238210494687824,3.12349936489092,0.008
+"Disease","Residual",0.976178950531218,NA,NA
+"Disease","Total",1,NA,NA
+"Time","Model",0.00532719969060276,0.685533534429665,0.671
+"Time","Residual",0.994672800309397,NA,NA
+"Time","Total",1,NA,NA
+"Disease*Time","Model",0.0319202153875079,1.38485388041852,0.144
+"Disease*Time","Residual",0.968079784612492,NA,NA
+"Disease*Time","Total",1,NA,NA

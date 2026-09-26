@@ -1,0 +1,8 @@
+List of 6
+ $ experiment        : chr "Microbiome_16S"
+ $ n_samples         : int 132
+ $ n_features        : int 470
+ $ taxonomy_separator: chr ";"
+ $ max_taxonomy_depth: int 7
+ $ observed_levels   : Named int [1:9] 470 470 470 470 470 470 470 0 0
+  ..- attr(*, "names")= chr [1:9] "Domain" "Kingdom" "Phylum" "Class" ...

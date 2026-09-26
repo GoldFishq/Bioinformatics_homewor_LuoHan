@@ -1,0 +1,66 @@
+There were 11 warnings (use warnings() to see them)
+[22:44:24] sourced storage.R
+[22:44:24] sourced session.R
+[22:44:24] sourced utils.R
+[22:44:24] sourced auth.R
+[22:44:24] sourced projects.R
+[22:44:24] sourced plot_theme.R
+[22:44:24] sourced import.R
+[22:44:24] sourced analysis.R
+[22:44:24] sourced viz.R
+[22:44:24] sourced workflow_registry.R
+[22:44:24] sourced workflow_metabolomics.R
+[22:44:24] sourced workflow_metagenomics.R
+[22:44:24] sourced workflow_transcriptomics.R
+[22:44:24] sourced workflow_chipseq.R
+[22:44:24] sourced workflow_microbiome_16s.R
+[22:44:24] sourced workflow_microbiome_16s_api.R
+[22:44:24] sourced clinical.R
+[22:44:24] sourced jobs.R
+[22:44:24] sourced runall.R
+[22:44:24] session_id = Gg2AQNcY15NPgXBv5CzV0EBH
+[22:44:24] session dir = D:/学习资料/大三上/生物信息学/EasyMultiProfiler-Web/.local_run/data/sessions/Gg2AQNcY15NPgXBv5CzV0EBH
+[22:44:24] importing 16S taxonomy + mapping ...
+[1;32mThe duplicated name in the feature have been detected.
+Parameter duplicate_feature is forced to be TRUE.[0m
+List of 9
+ $ success         : logi TRUE
+ $ session_id      : chr "Gg2AQNcY15NPgXBv5CzV0EBH"
+ $ import_mode     : chr "omics_new"
+ $ experiment_name : chr "Microbiome_16S"
+ $ samples         : int 132
+ $ features        : int 470
+ $ assay           : chr "counts"
+ $ omics           : chr "microbiome_16s"
+ $ experiment_count: int 1
+[22:44:25] profile: n_samples=132 n_features=470 max_depth=7
+ Domain Kingdom  Phylum   Class   Order  Family   Genus Species  Strain 
+    470     470     470     470     470     470     470       0       0 
+[22:44:26] colData columns: Group, Group_sub
+
+ IBS_after IBS_before   UC_after  UC_before 
+        36         36         29         29 
+
+ IBS_after_great   IBS_after_poor IBS_before_great  IBS_before_poor 
+              18               18               18               18 
+  UC_after_great    UC_after_poor  UC_before_great   UC_before_poor 
+              16               13               16               13 
+[22:44:26] running run_all_m16s (whole 16S pipeline) ...
+[bundle] XLSX 06_experiment_metadata: arguments imply differing number of rows: 132, 40
+Warning messages:
+1: Removed 78 rows containing non-finite outside the scale range
+(`stat_boxplot()`). 
+2: Removed 78 rows containing non-finite outside the scale range
+(`stat_boxplot()`). 
+3: In system2(zip, args, input = input, invisible = TRUE) :
+  '"zip"' not found
+List of 8
+ $ success   : logi TRUE
+ $ session_id: chr "Gg2AQNcY15NPgXBv5CzV0EBH"
+ $ experiment: chr "Microbiome_16S"
+ $ run_id    : chr "20260923-224426"
+ $ bundle    : chr "D:/学习资料/大三上/生物信息学/EasyMultiProfiler-Web/.local_run/data/sessions/Gg2AQNcY15NPgXBv5CzV0EBH/bundles/20260923-224426"
+ $ zip_path  : chr "D:/学习资料/大三上/生物信息学/EasyMultiProfiler-Web/.local_run/data/sessions/Gg2AQNcY15NPgXBv5CzV0EBH/bundles/2"| __truncated__
+ $ zip_name  : chr "20260923-224426.zip"
+ $ elapsed_s : num 17
+[22:44:43] DONE stage 1. bundle = D:/学习资料/大三上/生物信息学/EasyMultiProfiler-Web/.local_run/data/sessions/Gg2AQNcY15NPgXBv5CzV0EBH/bundles/20260923-224426

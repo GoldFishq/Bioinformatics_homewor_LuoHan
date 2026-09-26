@@ -1,0 +1,5 @@
+"disease","metric","pheno","mean_poor","mean_great","wilcox_p"
+"IBS","shannon","poor_vs_great(before)",1.69281396158872,1.57914776080393,0.739734243114265
+"IBS","observed","poor_vs_great(before)",20,22.7777777777778,0.325507158246975
+"UC","shannon","poor_vs_great(before)",1.67127149061385,1.5711009185581,0.524863071486941
+"UC","observed","poor_vs_great(before)",21.6153846153846,20.4375,0.826085331081316
